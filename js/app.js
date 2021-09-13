@@ -41,6 +41,7 @@ const addToCart = (id, price) => {
   document.getElementById("total-Products").innerText = count;
 };
 
+// for getting value by id
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
   const converted = parseFloat(element);

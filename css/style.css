@@ -1,13 +1,12 @@
+/* for body */
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-#bg-color{
-  /* background-color: black; */
-}
+
+/* for search field */
 .search-field {
   border: none;
-  /* border-radius: 50px; */
   padding: 5px;
   outline: none;
 }
@@ -24,15 +23,18 @@ body {
   border-right: none;
   margin-bottom: 50px;
 }
+
+/* for search button */
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
   margin-left: 21px;
 }
+
+/* for products */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
@@ -50,22 +52,28 @@ body {
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
+  background-color: #dfdfe7;
   border-radius: 10px;
-  border: 1px solid rgb(214, 96, 16);;
+  border: 1px solid rgb(214, 96, 16);
 }
 .product-image {
   width: 150px;
   height: 150px;
 }
+
+/* for cart */
 .cart {
-  background-color: #f4f4f7;
   width: 350px;
-  /* border: 1px solid green; */
+  transition: 0.6s;
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+}
+.cart:hover{
+  background-color: #adadc1;
+  border: 1px solid rgb(12, 193, 84);
 }
 .cart-main {
   padding-right: 30px;
@@ -77,7 +85,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
@@ -88,6 +95,8 @@ body {
     padding-right: 10px;
   }
 }
+
+/* for media query */
 @media only screen and (max-width: 468px) {
   #all-products {
     display: grid;
