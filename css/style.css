@@ -72,7 +72,7 @@ body {
   position: fixed;
 }
 .cart:hover{
-  background-color: #adadc1;
+  background-color: #c2c2d6de;
   border: 1px solid rgb(12, 193, 84);
 }
 .cart-main {
