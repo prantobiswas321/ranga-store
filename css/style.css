@@ -67,7 +67,7 @@ body {
   transition: 0.6s;
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 30px;
   position: fixed;
 }
